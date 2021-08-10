@@ -147,10 +147,10 @@ input[type="text"] {
 .slider {
     height: 724px;
     width: 100%;
-    background-image: url(images/slider-slide3.jpg) ;
+    /* background-image: url(images/slider-slide3.jpg) ;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: cover;
+    background-size: cover; */
 }
 .slider-text {
     position: absolute;
