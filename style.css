@@ -1,0 +1,1021 @@
+.header {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.logo {
+    padding-top: 24px;
+    margin: 0 30px 0 20px;
+}
+.logo a {
+    display: block;
+}
+.logo-header {
+    max-height: 41px;
+    max-width: 100%;
+    height: auto;
+}
+.left-column {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    position: relative;
+}
+.logo-header {
+    max-height: 41px;
+    vertical-align: middle;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+
+}
+.menu-wrapper {
+    height: 90px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 15px 0;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+    line-height: 60px;
+    padding: 0 20px;
+}
+.menu a:hover{
+    background-color: #048bda;
+    color: #f7f7f7;
+    background-size: 50px;
+}
+.search-wrapper {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    width: 100%;
+    padding: 15px;
+    background: #0095eb;
+}
+.button-search {
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    line-height: 22px;
+    display: block;
+    background-color: inherit;
+    left: 18px;
+    color: rgba(0,0,0,.5);
+}
+.search-text {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 0;
+    padding-left: 35px;
+    border: none;
+    color: #fff;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,.08);
+    background: inherit;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+input[type="text"] {
+    padding: 10px;
+    outline: none;
+    width: 1275px;
+    max-width: 100%;
+    display: block;
+}
+.search-button-close {
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    line-height: 22px;
+    display: block;
+    right: 18px;
+    color: #fff;
+    opacity: .3;
+    border: none;
+    background: none;
+}
+.right-column {
+    height: 90px;
+    position: relative;
+    top: 0px;
+    padding: 0 10px 0 20px;
+}
+.right-column-button {
+    background-color: #0a2cb2;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 11px 20px;
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.right-column a {
+    margin: 0 5px;
+    position: relative;
+    top: 25px;
+}
+.right-column a:hover {
+    background-color: #048bda;
+    color: #f7f7f7;
+}
+.slider {
+    height: 724px;
+    width: 100%;
+    background-image: url(images/slider-slide3.jpg) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.slider-text {
+    position: absolute;
+    left: 270px;
+    top: 229px;
+    font-family: "Expletus Sans", sans-serif;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: auto
+}
+.slider-button {
+    border: none;
+    position: absolute;
+    display: block;
+    pointer-events: auto;
+    left: 270px;
+    top: 462px;
+    background-color: rgb(0, 36, 180);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    line-height: 14px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0px;
+    padding: 13px 21px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+}
+.slider-button:hover {
+    background-color: #fff;
+    color: black;
+}
+.far, .fa-paper-plane::before {
+    display: inline-block;
+    content: "\f1d8";
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
+    width: 18px;
+    height: 18px;
+    margin-right: 0;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    margin-left: 10px;
+}
+.slider-button-img {
+    background-image: url(images/outline_near_me_white_18dp.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+/* About */
+.about {
+    margin: 0 auto;
+    max-width: 1060px;
+}
+.line {
+    width: 100%;
+    height: 121px;
+    margin: 0 1% 40px;
+    text-align: center;
+}
+.line img {
+    width: 1px;
+    height: auto;
+    display: inline;
+}
+.about-left-column {
+    width: 33.3333333%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-left-column-img {
+    background-image: url(images/aeroclub-home-airplane-logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 31.333%;
+    height: 66px;
+    margin: 0 1% 40px;
+}
+.about-left-column-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #ff0e0e;
+    margin: 0 1% 55px;
+    width: 64.666%;
+    padding-top: 11px;
+}
+.about-right-column {
+    width: 66.6666666%;
+    padding: 0 5%;
+}
+.about-right-column-text {
+    font-family: "Expletus Sans", sans-serif;
+font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0d2156;
+    margin: 0 1% 40px;
+    padding-top: 11px;
+}
+/* Events */
+.events {
+    margin: 0 auto;
+    max-width: 1060px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.events-wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.one-third {
+    width: 33.333%;
+    cursor: pointer;
+    margin-bottom: 40px;
+    position: relative;
+}
+.one-third a {
+    display: block;
+}
+.fly {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 27px 15px 30px;
+}
+.description h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Expletus Sans", sans-serif;
+}
+.one-third:hover img {
+    opacity: 0.7;
+}
+.one-third:hover .description{
+    background-color: #0a2cb2;
+    transition: all .3s ease-in-out;
+}
+/* Story */
+.story {
+    padding-top: 30px;
+    padding-bottom: 75px;
+    background-image: url(https://themes.muffingroup.com/be/aeroclub/wp-content/uploads/2018/11/aeroclub-home-parachute.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+.container-story {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.row-story {
+    display: flex;
+}
+.half-a-page {
+    width: 50%;
+    margin: 0 1% 40px;
+}
+.story-text {
+    width: 81.333%;
+}
+.story-text-title {
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0d2156;
+    font-family: "Expletus Sans", sans-serif;
+    margin-bottom: 15px;
+}
+.story-text-paragraph {
+    margin: 0 0 15px;
+    color: #293e72;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.story-text a {
+    color: #0d2156;
+    text-decoration: none;
+    outline: 0;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.story-text a:hover {
+    color: #007cc3;
+    text-decoration: underline;
+}
+.story-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.what-we-do {
+    width: 100%;
+}
+.aeroclub-logo {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 1% 40px;
+    display: block;
+}
+.aeroclub-logo img {
+    max-width: 100%;
+    height: auto;
+}
+.what-we-do-text p {
+    color: #0d2156;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-family: "Expletus Sans", sans-serif;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.what-we-do-text {
+    margin-bottom: 10px;
+}
+.what-we-do-button {
+    display: flex; flex-wrap: wrap;
+}
+.what-we-do-left-button {
+    width: 48%;
+    margin: 0 1% 40px;
+    text-align: right;
+}
+.what-we-do-left-button  a {
+    background-color: #ff0e0e;
+    color: #fff;
+    margin: 0 10px 15px 0;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    font-size: inherit;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: solid;
+    transition: color .1s ease-in-out,
+    background-color .1s ease-in-out,
+    border-color .1s ease-in-out;
+}
+.what-we-do-right-button {
+    width: 48%;
+    margin: 0 1% 40px;
+    text-align: left;
+}
+.what-we-do-right-button  a {
+background-color: #0095eb;
+    color: white;
+    background-color: #dfe7ee;
+    color: #0d2156;
+    margin: 0 10px 15px 0;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    font-size: inherit;
+    overflow: hidden;
+    text-decoration: none!important;
+    cursor: pointer;
+    border-style: solid;
+    transition: color .1s ease-in-out, background-color .1s ease-in-out, border-color .1s ease-in-out;
+}
+.what-we-do-left-button:hover {
+    opacity: 0.7;
+}
+.what-we-do-right-button:hover {
+    opacity: 0.7;
+}
+/* Learn to fly */
+.learn-to-fly {
+    background-image: url(images/learn-to-fly.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+    min-height: 724px;
+    background-size: cover;
+}
+.learn-to-fly-text {
+    max-width: 1060px;
+    width: 100%;
+    padding-top: 225.9px;
+    padding-bottom: 205.9px;
+    margin: 0 auto;
+}
+.fly-column {
+    width: 48%;
+    margin: 0 1% 40px;
+}
+.fly-column h1 {
+    font-family: "Expletus Sans", sans-serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.fly-column p {
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 15px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #fff
+}
+/* Offer */
+.offer {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+}
+.image-links {
+    width: 33.333%;
+}
+.image-links a {
+    display: block;
+}
+.our-offer {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+/* Footer */
+.footer {
+    background-color: #fff;
+    color: #0d2156;
+}
+.footer-wraper {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 120px 0 80px;
+}
+.column {
+    width: 23%;
+    margin: 0 1% 40px;
+}
+.widget {
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.widget img {
+    max-width: 100%;
+    height: auto;
+}
+.widget h4 {
+    font-family: "Expletus Sans", sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #ff0e0e;
+    margin-bottom: 15px;
+}
+.widget-text {
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #0d2156;
+}
+.widget-text-number {
+    font-family: "Expletus Sans", sans-serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+.footer-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.footer-column {
+    margin: 0 1% 20px;
+    padding-top: 30px;
+    min-height: 33px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #0d2156;
+}
+.footer-desc a {
+    color: #0024b4;
+    text-decoration: none;
+}
+.footer-desc a:hover {
+    text-decoration: underline;
+}
+.footer-button {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    overflow: hidden;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    text-align: center;
+}
+.back-to-top {
+    color: #0d2156;
+    background-image: url(images/footer_up_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+/* Phone */
+@media (max-width: 767px) {
+    .row-full-width {
+        margin: 0;
+    }
+    .left-column {
+        display: block;
+    }
+    .logo {
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px 0;
+        padding: 0;
+    }
+    .logo a {
+        display: block;
+        margin-left: 15px;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+    .right-column {
+        display: none;
+    }
+    .slider {
+        height: 398px;
+        width: 100%;
+        background-position: right;
+    }
+    .slider-text {
+        left: 8px;
+        top: 158px;
+        line-height: 17px;
+        font-size: 15px;
+        letter-spacing: 0px;
+        width: auto;
+        height: auto;
+    }
+    .slider-button {
+        left: 9px;
+        top: 230px;
+        line-height: 4px;
+        font-size: 7px;
+        padding: 4px 6px;
+    }
+    .far, .fa-paper-plane::before {
+        width: auto;
+        height: 100%;
+        margin-left: 2px;
+    }
+    .about {
+        padding-left: 33px;
+    padding-right: 33px;
+    }
+    .about-left-column {
+        width: 100%;
+        display: block;
+    }
+    .about-left-column-img {
+        margin: 0 0 20px;
+    }
+    .about-left-column-text {
+    margin: 0 0 20px;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    }
+    .about-right-column {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .about-right-column-text {
+        font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin: 0;
+    }
+    .events {
+        padding-left: 33px;
+    padding-right: 33px;
+    max-width: 480px;
+    }
+    .events-wrapper {
+        display: block;
+    }
+    .one-third {
+        width: 100%;
+        margin: 0 0 20px;
+        height: auto;
+    }
+    .description h2 {
+        font-size: 21px;
+    line-height: 21px;
+    }
+    .row-story {
+        display: block;
+    }
+    .half-a-page {
+        width: 100%;
+        padding-left: 33px;
+    padding-right: 33px;
+    margin: 0 0 20px;
+    }
+    .story-text {
+        width: 100%;
+    }
+    .story-text-title {
+        font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    }
+    .story-text-paragraph {
+        font-size: 13px;
+    line-height: 19px;
+    }
+    .story-text a {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .what-we-do-text p {
+        font-size: 24px;
+    line-height: 30px;
+    }
+    .aeroclub-logo {
+        margin: 0 0 20px;
+    }
+    .what-we-do-button {
+        display: block;
+    }
+    .what-we-do-left-button, .what-we-do-right-button {
+        margin: 0 0 20px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    }
+    .learn-to-fly {
+        min-height: 398px;
+    }
+    .learn-to-fly-text {
+        padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 33px;
+    padding-right: 33px;
+    }
+    .fly-column {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .fly-column h1 {
+        font-size: 18px;
+    line-height: 20px;
+    }
+    .fly-column p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .offer {
+        display: block;
+    }
+    .image-links {
+        width: 100%;
+    }
+    .our-offer {
+        display: block;
+    }
+    .footer-container {
+        max-width: 480px;
+        padding-left: 33px;
+    padding-right: 33px;
+    }
+    .footer-row {
+        display: block;
+        margin: 0;
+    }
+    .column {
+        width: 100%;
+        margin: 0;
+    }
+    .widget h4 {
+        font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    }
+    .widget-text {
+        font-size: 13px;
+    line-height: 19px;
+    }
+    .widget-text-number {
+        font-size: 18px;
+    line-height: 20px;
+    }
+    .footer-container {
+        margin-bottom: 20px;
+    }
+    .footer-column {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .footer-desc {
+        margin: 0 0 10px;
+        font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    }
+    .footer-button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 959px) {
+    .left-column {
+        display: block;
+        width: 80%;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+    .right-column a {
+        font-size: 13px;
+    }
+    .slider {
+        height: 398px;
+        width: 100%;
+        background-position: right;
+    }
+    .slider-text {
+        left: 114px;
+    top: 126px;
+        line-height: 30px;
+    letter-spacing: 0px;
+    font-size: 28px;
+    }
+    .slider-button {
+        left: 116px;
+    top: 254px;
+        line-height: 8px;
+        font-size: 9px;
+        padding: 7px 11px;
+    }
+    .far, .fa-paper-plane::before {
+        width: auto;
+        height: 100%;
+        margin-left: 4px;
+    }
+    .about {
+        max-width: 708px;
+    }
+    .line {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .about-left-column-img {
+        margin: 0 0 20px;
+    }
+    .about-left-column-text {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 24px;
+    }
+    .about-right-column {
+        margin-bottom: 15px;
+    }
+    .about-right-column-text {
+        font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    }
+    .events-wrapper {
+        max-width: 708px;
+    }
+    .description h2 {
+        font-size: 27px;
+    line-height: 27px;
+    }
+    .container-story {
+        max-width: 708px;
+    margin: 0 auto;
+    }
+    .story-text-title {
+        font-size: 26px;
+    line-height: 29px;
+    }
+    .story-text-paragraph {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .story-text a {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .what-we-do {
+        width: 100%;
+    }
+    .what-we-do-text p {
+        font-size: 34px;
+    line-height: 43px;
+    }
+    .what-we-do-left-button-text {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .what-we-do-right-button-text {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .learn-to-fly {
+        min-height: 398px;
+    }
+    .learn-to-fly-page {
+        max-width: 708px;
+        margin: 0 auto;
+    }
+    .learn-to-fly-text {
+        padding-top: 60px;
+    padding-bottom: 40px;
+    }
+    .fly-column h1 {
+        font-size: 26px;
+    line-height: 29px;
+    }
+    .fly-column p {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .footer-container {
+        max-width: 708px;
+    }
+    .column {
+        margin-bottom: 0;
+    }
+    .widget h4 {
+        font-size: 18px;
+    line-height: 21px;
+    }
+    .widget-text {
+        font-size: 13px;
+    line-height: 21px;
+    }
+    .widget-text-number {
+        font-size: 26px;
+    line-height: 29px;
+    }
+    .footer-container {
+        margin-bottom: 20px;
+    }
+    .footer-desc {
+        font-size: 13px;
+    line-height: 21px;
+    }
+}
+/* Laptop */
+@media (min-width: 960px) and (max-width: 1239px) {
+    .left-column {
+        display: block;
+        width: 80%;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+    .slider {
+        height: 318px;
+    width: 1024px;
+    }
+    .slider-text {
+        left: 242px;
+    top: 126px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    font-size: 28px;
+    }
+    .slider-button {
+        left: 244px;
+    top: 254px;
+        line-height: 8px;
+        font-size: 9px;
+        padding: 7px 11px;
+    }
+    .far, .fa-paper-plane::before {
+        width: auto;
+        height: auto;
+        margin-left: 4px;
+    }
+    .about {
+        max-width: 940px;
+    }
+    .events-wrapper {
+        max-width: 940px;
+    }
+    .container-story {
+        max-width: 940px;
+    }
+    .learn-to-fly {
+        min-height: 318px
+    }
+    .learn-to-fly-text {
+        max-width: 940px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    }
+    .footer-container {
+        max-width: 940px;
+    }
+    .column {
+        margin: 0 1% 0px;
+    }
+}
+
