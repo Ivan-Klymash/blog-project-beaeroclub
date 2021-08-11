@@ -3,6 +3,7 @@
     max-width: 100%;
     width: 100%;
     background-color: transparent;
+    z-index: 10;
 }
 .logo {
     padding-top: 24px;
@@ -146,10 +147,10 @@ input[type="text"] {
 .slider {
     height: 724px;
     width: 100%;
-    background-image: url(images/slider-slide3.jpg) ;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+}
+.slider-block > div img {
+    width: 100%;
+    height: 100vh;
 }
 .slider-text {
     position: absolute;
@@ -639,6 +640,10 @@ background-color: #0095eb;
         width: 100%;
         background-position: right;
     }
+    .slider-block > div img {
+        width: 100%;
+        height: 398px;
+    }
     .slider-text {
         left: 8px;
         top: 158px;
@@ -836,6 +841,10 @@ background-color: #0095eb;
         height: 398px;
         width: 100%;
         background-position: right;
+    }
+    .slider-block > div img {
+        width: 100%;
+        height: 398px;
     }
     .slider-text {
         left: 114px;
@@ -1041,5 +1050,146 @@ background-color: #0095eb;
     }
     .nav-mobile-menu span:last-child {
         bottom: 5px;
+    }
+}
+
+
+/* Slick slider */
+.slider .slick-slider {
+    position: relative;
+}
+.slider .slick-slider .slick-arrow {
+    position: absolute;
+    top: 95.3%;
+    z-index: 11;
+    font-size: 0;
+    width: 26px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+.slider .slick-prev {
+    left: 655px;
+    background: url(images/slider-arrow-left.png) 0 0 / 100% no-repeat;
+}
+.slider .slick-next {
+    right: 655px;;
+    background: url(images/slider-arrow-right.png) 0 0 /100% no-repeat;
+}
+.slider .slick-dotted ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -29px;
+}
+.slick-list > ul > li button {
+    font-size: 22px;
+    background-color: white;
+    border: none;
+}
+.slider .slick-dotted ul>li button {
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+    color: red;
+}
+.slider .slick-dotted ul .slick-active button  {
+    background-color: red;
+    color: white;
+}
+
+@media(max-width:320px) {
+    .slider .slick-slider .slick-arrow {
+        top: 96%;
+    }
+    .slider .slick-prev {
+        left: 87px;
+    }
+    .slider .slick-next {
+        right: 87px;;
+    }
+    .slider .slick-dotted ul>li button {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+    .slider .slick-dotted ul {
+        top: -18px;
+    }
+}
+@media (max-width: 376px) and (min-width: 321px) {
+    .slider .slick-slider .slick-arrow {
+        top: 96%;
+    }
+    .slider .slick-prev {
+        left: 115px;
+    }
+    .slider .slick-next {
+        right: 115px;;
+    }
+    .slider .slick-dotted ul>li button {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+    .slider .slick-dotted ul {
+        top: -18px;
+    }
+}
+@media (max-width: 426px) and (min-width: 376px) {
+    .slider .slick-slider .slick-arrow {
+        top: 96%;
+    }
+    .slider .slick-prev {
+        left: 140px;
+    }
+    .slider .slick-next {
+        right: 140px;;
+    }
+    .slider .slick-dotted ul>li button {
+        font-size: 12px;
+        padding: 0 12px;
+    }
+    .slider .slick-dotted ul {
+        top: -18px;
+    }
+}
+@media (max-width: 769px) and (min-width: 426px) {
+    .slider .slick-slider .slick-arrow {
+        top: 92%;
+    }
+    .slider .slick-prev {
+        left: 279px;
+    }
+    .slider .slick-next {
+        right: 279px;;
+    }
+}
+@media (max-width: 1025px) and (min-width: 769px) {
+    .slider .slick-slider .slick-arrow {
+        top: 90%;
+    }
+    .slider .slick-prev {
+        left: 408px;
+    }
+    .slider .slick-next {
+        right: 408px;;
+    }
+    .slider-block > div img {
+        height: 320px;
+    }
+}
+@media (max-width: 1441px) and (min-width: 1025px) {
+    .slider .slick-slider .slick-arrow {
+        top: 92.5%;
+    }
+    .slider .slick-prev {
+        left: 616px;
+    }
+    .slider .slick-next {
+        right: 616px;;
     }
 }
