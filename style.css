@@ -1019,3 +1019,27 @@ background-color: #0095eb;
     }
 }
 
+/* Гамбургер меню */
+@media (max-width:1439px) {
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;;
+    }
+    .nav-mobile-menu span {
+        background-color: white;
+        height: 1px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+    }
+    .nav-mobile-menu span:first-child {
+        top: 5px;
+    }
+    .nav-mobile-menu span:nth-child(2) {
+        top: 9px;
+    }
+    .nav-mobile-menu span:last-child {
+        bottom: 5px;
+    }
+}
