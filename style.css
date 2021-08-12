@@ -1147,11 +1147,11 @@ background-color: #dfe7ee
     height: 60px;
 }
 .slider .slick-prev {
-    left: 664px;
+    left: 656px;
     background: url(images/slider-arrow-left.png) 0 0 / 100% no-repeat;
 }
 .slider .slick-next {
-    right: 664px;
+    right: 656px;
     background: url(images/slider-arrow-right.png) 0 0 /100% no-repeat;
 }
 .slider .slick-dotted ul {
