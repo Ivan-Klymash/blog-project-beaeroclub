@@ -21,7 +21,11 @@
     display: flex;
     justify-content: space-between;
     width: 89%;
-    position: relative;
+}
+.left-flex-column {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .logo-header {
     max-height: 41px;
@@ -32,7 +36,7 @@
 
 }
 .menu-wrapper {
-    height: 90px;
+    height: auto;
 }
 .menu {
     display: flex;
@@ -150,7 +154,7 @@ input[type="text"] {
 }
 .slider-block > div img {
     width: 100%;
-    height: 100vh;
+    height: 724px;
 }
 .slider-text {
     position: absolute;
@@ -609,6 +613,10 @@ background-color: #0095eb;
     height: 28px;
     display: block;
 }
+.back-to-top:hover {
+background-color: #dfe7ee
+}
+
 
 /* Phone */
 @media (max-width: 767px) {
@@ -824,6 +832,20 @@ background-color: #0095eb;
         display: block;
         margin: 0 auto;
     }
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 285px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: relative;
+        bottom: 346px;
+        left: 285px;
+        padding: 0px;
+        margin: 0;
+    }
 }
 /* Tablet */
 @media (min-width: 768px) and (max-width: 959px) {
@@ -1004,6 +1026,8 @@ background-color: #0095eb;
         margin-left: 4px;
     }
     .about {
+        position: relative;
+    top: 80px;
         max-width: 940px;
     }
     .events-wrapper {
@@ -1033,7 +1057,9 @@ background-color: #0095eb;
     .nav-mobile-menu {
         width: 20px;
         height: 20px;
-        position: relative;;
+        position: relative;
+        bottom: 41px;
+        left: 285px;
     }
     .nav-mobile-menu span {
         background-color: white;
@@ -1051,6 +1077,56 @@ background-color: #0095eb;
     .nav-mobile-menu span:last-child {
         bottom: 5px;
     }
+
+    .nav-mobile-menu.active-menu span:first-child {
+        top:50%;
+        transform: rotate(45deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(2) {
+        top:50%;
+        transform: rotate(-45deg);
+    }
+    .nav-mobile-menu.active-menu span:last-child {
+        transform: scale(0);
+    }
+
+    .menu-wrapper.active-menu {
+        display: flex;
+    }
+    .nav-mobile-menu.active-menu {
+        position: relative;
+        bottom: 346px;
+        left: 285px;
+        padding: 0px;
+        margin: 0;
+    }
+}
+.menu-wrapper.active-menu ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    background-color: #0d2156;
+    padding: 0px;
+}
+.menu-wrapper.active-menu ul li{
+    background-color: #0d2156;
+    border-bottom: 1px solid white;
+    height: 58px;
+}
+.menu-wrapper.active-menu ul:first-child {
+    border-top: 1px solid white;
+}
+.overlay.active-menu {
+    display: block;
+}
+
+.right-column.active-menu {
+    display: block;
+    position: absolute;
+    left: 160px;
+    top: 33px;
 }
 
 
@@ -1061,7 +1137,7 @@ background-color: #0095eb;
 .slider .slick-slider .slick-arrow {
     position: absolute;
     top: 95.3%;
-    z-index: 11;
+    z-index: 1;
     font-size: 0;
     width: 26px;
 }
@@ -1071,11 +1147,11 @@ background-color: #0095eb;
     height: 60px;
 }
 .slider .slick-prev {
-    left: 655px;
+    left: 664px;
     background: url(images/slider-arrow-left.png) 0 0 / 100% no-repeat;
 }
 .slider .slick-next {
-    right: 655px;;
+    right: 664px;
     background: url(images/slider-arrow-right.png) 0 0 /100% no-repeat;
 }
 .slider .slick-dotted ul {
@@ -1120,6 +1196,21 @@ background-color: #0095eb;
     .slider .slick-dotted ul {
         top: -18px;
     }
+
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 285px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: absolute;
+        bottom: 51px;
+        left: 285px;
+        padding: 0px;
+        margin: 0;
+    }
 }
 @media (max-width: 376px) and (min-width: 321px) {
     .slider .slick-slider .slick-arrow {
@@ -1137,6 +1228,24 @@ background-color: #0095eb;
     }
     .slider .slick-dotted ul {
         top: -18px;
+    }
+
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 340px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: absolute;
+        bottom: 51px;
+        left: 340px;
+        padding: 0px;
+        margin: 0;
+    }
+    .right-column.active-menu {
+        left: 215px;
     }
 }
 @media (max-width: 426px) and (min-width: 376px) {
@@ -1156,6 +1265,24 @@ background-color: #0095eb;
     .slider .slick-dotted ul {
         top: -18px;
     }
+
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 390px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: absolute;
+        bottom: 51px;
+        left: 390px;
+        padding: 0px;
+        margin: 0;
+    }
+    .right-column.active-menu {
+        left: 266px;
+    }
 }
 @media (max-width: 769px) and (min-width: 426px) {
     .slider .slick-slider .slick-arrow {
@@ -1167,10 +1294,31 @@ background-color: #0095eb;
     .slider .slick-next {
         right: 279px;;
     }
+
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 565px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: absolute;
+        bottom: 51px;
+        left: 565px;
+        padding: 0px;
+        margin: 0;
+    }
+    .right-column.active-menu {
+        left: 611px;
+    }
+    .nav-mobile-menu.active-menu {
+        left: 730px;
+    }
 }
 @media (max-width: 1025px) and (min-width: 769px) {
     .slider .slick-slider .slick-arrow {
-        top: 90%;
+        top: 92%;
     }
     .slider .slick-prev {
         left: 408px;
@@ -1179,12 +1327,33 @@ background-color: #0095eb;
         right: 408px;;
     }
     .slider-block > div img {
-        height: 320px;
+        height: 398px;
+    }
+
+    .nav-mobile-menu {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 41px;
+        left: 815px;
+    }
+    .nav-mobile-menu.active-menu {
+        position: absolute;
+        bottom: 51px;
+        left: 815px;
+        padding: 0px;
+        margin: 0;
+    }
+    .right-column.active-menu {
+        left: 864px;
+    }
+    .nav-mobile-menu.active-menu {
+        left: 984px;
     }
 }
 @media (max-width: 1441px) and (min-width: 1025px) {
     .slider .slick-slider .slick-arrow {
-        top: 92.5%;
+        top: 95.5%;
     }
     .slider .slick-prev {
         left: 616px;
