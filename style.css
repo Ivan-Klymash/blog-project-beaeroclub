@@ -20,7 +20,7 @@
 .left-column {
     display: flex;
     justify-content: space-between;
-    width: 89%;
+    width: 85%;
 }
 .left-flex-column {
     width: 100%;
@@ -138,6 +138,7 @@ input[type="text"] {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0px;
+    border: none;
 }
 .right-column a {
     margin: 0 5px;
@@ -224,6 +225,7 @@ input[type="text"] {
 .about {
     margin: 0 auto;
     max-width: 1060px;
+    width: 100%;
 }
 .line {
     width: 100%;
@@ -277,11 +279,13 @@ font-size: 24px;
 .events {
     margin: 0 auto;
     max-width: 1060px;
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 50px;
 }
 .events-wrapper {
     max-width: 1060px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +301,7 @@ font-size: 24px;
 }
 .fly {
     max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -332,6 +337,7 @@ font-size: 24px;
 }
 .container-story {
     max-width: 1060px;
+    width: 100%;
     margin: 0 auto;
 }
 .row-story {
@@ -522,6 +528,7 @@ background-color: #0095eb;
 }
 .footer-wraper {
     max-width: 1060px;
+    width: 100%;
     margin: 0 auto;
     padding: 120px 0 80px;
 }
@@ -565,6 +572,7 @@ background-color: #0095eb;
 }
 .footer-container {
     max-width: 1060px;
+    width: 100%;
     margin: 0 auto;
 }
 .footer-column {
@@ -617,6 +625,14 @@ background-color: #0095eb;
 background-color: #dfe7ee
 }
 
+.hidden-button {
+    margin: auto;
+    margin-top: 7px;
+}
+.hidden-button:hover {
+    background-color: #048bda;
+    color: #f7f7f7;
+}
 
 /* Phone */
 @media (max-width: 767px) {
@@ -642,6 +658,8 @@ background-color: #dfe7ee
     }
     .right-column {
         display: none;
+        padding: 0px;
+        margin: 0px;
     }
     .slider {
         height: 398px;
@@ -856,8 +874,10 @@ background-color: #dfe7ee
     .menu-wrapper {
         display: none;
     }
-    .right-column a {
-        font-size: 13px;
+    .right-column {
+        display: none;
+        padding: 0px;
+        margin: 0px;
     }
     .slider {
         height: 398px;
@@ -889,6 +909,7 @@ background-color: #dfe7ee
     }
     .about {
         max-width: 708px;
+        width: 100%;
     }
     .line {
         margin: 0;
@@ -912,6 +933,7 @@ background-color: #dfe7ee
     }
     .events-wrapper {
         max-width: 708px;
+        width: 100%;
     }
     .description h2 {
         font-size: 27px;
@@ -919,6 +941,7 @@ background-color: #dfe7ee
     }
     .container-story {
         max-width: 708px;
+        width: 100%;
     margin: 0 auto;
     }
     .story-text-title {
@@ -953,6 +976,7 @@ background-color: #dfe7ee
     }
     .learn-to-fly-page {
         max-width: 708px;
+        width: 100%;
         margin: 0 auto;
     }
     .learn-to-fly-text {
@@ -969,6 +993,7 @@ background-color: #dfe7ee
     }
     .footer-container {
         max-width: 708px;
+        width: 100%;
     }
     .column {
         margin-bottom: 0;
@@ -994,7 +1019,7 @@ background-color: #dfe7ee
     }
 }
 /* Laptop */
-@media (min-width: 960px) and (max-width: 1239px) {
+@media (min-width: 960px) and (max-width: 1025px) {
     .left-column {
         display: block;
         width: 80%;
@@ -1002,9 +1027,14 @@ background-color: #dfe7ee
     .menu-wrapper {
         display: none;
     }
+    .right-column {
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
     .slider {
         height: 318px;
-    width: 1024px;
+    width: 100%;
     }
     .slider-text {
         left: 242px;
@@ -1029,23 +1059,28 @@ background-color: #dfe7ee
         position: relative;
     top: 80px;
         max-width: 940px;
+        width: 100%;
     }
     .events-wrapper {
         max-width: 940px;
+        width: 100%;
     }
     .container-story {
         max-width: 940px;
+        width: 100%;
     }
     .learn-to-fly {
         min-height: 318px
     }
     .learn-to-fly-text {
         max-width: 940px;
+        width: 100%;
     padding-top: 60px;
     padding-bottom: 40px;
     }
     .footer-container {
         max-width: 940px;
+        width: 100%;
     }
     .column {
         margin: 0 1% 0px;
@@ -1053,13 +1088,13 @@ background-color: #dfe7ee
 }
 
 /* Гамбургер меню */
-@media (max-width:1439px) {
+@media (max-width:1024px) {
     .nav-mobile-menu {
         width: 20px;
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 285px;
+        left: 100px;
     }
     .nav-mobile-menu span {
         background-color: white;
@@ -1122,12 +1157,12 @@ background-color: #dfe7ee
     display: block;
 }
 
-.right-column.active-menu {
+/* .right-column.active-menu {
     display: block;
     position: absolute;
     left: 160px;
     top: 33px;
-}
+} */
 
 
 /* Slick slider */
@@ -1147,11 +1182,11 @@ background-color: #dfe7ee
     height: 60px;
 }
 .slider .slick-prev {
-    left: 656px;
+    left: 85px;
     background: url(images/slider-arrow-left.png) 0 0 / 100% no-repeat;
 }
 .slider .slick-next {
-    right: 656px;
+    right: 85px;
     background: url(images/slider-arrow-right.png) 0 0 /100% no-repeat;
 }
 .slider .slick-dotted ul {
@@ -1202,12 +1237,12 @@ background-color: #dfe7ee
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 285px;
+        left: 270px;
     }
     .nav-mobile-menu.active-menu {
         position: absolute;
         bottom: 51px;
-        left: 285px;
+        left: 270px;
         padding: 0px;
         margin: 0;
     }
@@ -1235,18 +1270,18 @@ background-color: #dfe7ee
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 340px;
+        left: 300px;
     }
     .nav-mobile-menu.active-menu {
         position: absolute;
         bottom: 51px;
-        left: 340px;
+        left: 300px;
         padding: 0px;
         margin: 0;
     }
-    .right-column.active-menu {
+    /* .right-column.active-menu {
         left: 215px;
-    }
+    } */
 }
 @media (max-width: 426px) and (min-width: 376px) {
     .slider .slick-slider .slick-arrow {
@@ -1271,20 +1306,20 @@ background-color: #dfe7ee
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 390px;
+        left: 355px;
     }
     .nav-mobile-menu.active-menu {
         position: absolute;
         bottom: 51px;
-        left: 390px;
+        left: 355px;
         padding: 0px;
         margin: 0;
     }
-    .right-column.active-menu {
+    /* .right-column.active-menu {
         left: 266px;
-    }
+    } */
 }
-@media (max-width: 769px) and (min-width: 426px) {
+@media (max-width: 768px) and (min-width: 426px) {
     .slider .slick-slider .slick-arrow {
         top: 92%;
     }
@@ -1300,23 +1335,30 @@ background-color: #dfe7ee
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 565px;
+        left: 398px;
     }
     .nav-mobile-menu.active-menu {
         position: absolute;
         bottom: 51px;
-        left: 565px;
+        left: 580px;
         padding: 0px;
         margin: 0;
     }
-    .right-column.active-menu {
-        left: 611px;
-    }
+
+}
+@media (max-width: 600px) and (min-width: 426px) {
     .nav-mobile-menu.active-menu {
-        left: 730px;
+        left: 408px;
     }
 }
-@media (max-width: 1025px) and (min-width: 769px) {
+
+@media (max-width: 900px) and (min-width: 769px) {
+    .nav-mobile-menu.active-menu {
+        left: 744px !important;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
     .slider .slick-slider .slick-arrow {
         top: 92%;
     }
@@ -1335,23 +1377,23 @@ background-color: #dfe7ee
         height: 20px;
         position: relative;
         bottom: 41px;
-        left: 815px;
+        left: 620px;
     }
     .nav-mobile-menu.active-menu {
         position: absolute;
         bottom: 51px;
-        left: 815px;
+        left: 620px;
         padding: 0px;
         margin: 0;
     }
-    .right-column.active-menu {
+    /* .right-column.active-menu {
         left: 864px;
-    }
+    } */
     .nav-mobile-menu.active-menu {
-        left: 984px;
+        left: 878px;
     }
 }
-@media (max-width: 1441px) and (min-width: 1025px) {
+@media (max-width: 1440px) and (min-width: 1025px) {
     .slider .slick-slider .slick-arrow {
         top: 95.5%;
     }
@@ -1360,5 +1402,10 @@ background-color: #dfe7ee
     }
     .slider .slick-next {
         right: 616px;;
+    }
+}
+@media (min-width: 1025px) {
+    .menu-wrapper .menu li:first-child {
+        display: none;
     }
 }

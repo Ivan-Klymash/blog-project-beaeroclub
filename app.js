@@ -1,6 +1,7 @@
 // slick slider
 $(".slider-block").slick({
   autoplay: true,
+  autoplaySpeed: 4000,
   dots: true,
   dotsClass: true,
   draggable: false,
