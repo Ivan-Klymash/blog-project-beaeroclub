@@ -1218,12 +1218,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 96%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 87px;
     }
     .slider .slick-next {
         right: 87px;;
-    }
+    } */
     .slider .slick-dotted ul>li button {
         font-size: 12px;
         padding: 0 12px;
@@ -1251,12 +1251,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 96%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 115px;
     }
     .slider .slick-next {
         right: 115px;;
-    }
+    } */
     .slider .slick-dotted ul>li button {
         font-size: 12px;
         padding: 0 12px;
@@ -1287,12 +1287,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 96%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 140px;
     }
     .slider .slick-next {
         right: 140px;;
-    }
+    } */
     .slider .slick-dotted ul>li button {
         font-size: 12px;
         padding: 0 12px;
@@ -1323,12 +1323,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 92%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 279px;
     }
     .slider .slick-next {
         right: 279px;;
-    }
+    } */
 
     .nav-mobile-menu {
         width: 20px;
@@ -1362,12 +1362,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 92%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 408px;
     }
     .slider .slick-next {
         right: 408px;;
-    }
+    } */
     .slider-block > div img {
         height: 398px;
     }
@@ -1397,12 +1397,12 @@ background-color: #dfe7ee
     .slider .slick-slider .slick-arrow {
         top: 95.5%;
     }
-    .slider .slick-prev {
+    /* .slider .slick-prev {
         left: 616px;
     }
     .slider .slick-next {
         right: 616px;;
-    }
+    } */
 }
 @media (min-width: 1025px) {
     .menu-wrapper .menu li:first-child {
